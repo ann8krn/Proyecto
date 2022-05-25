@@ -1,0 +1,104 @@
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --blue: rgb(0, 195, 255);
+  --sm: 20px;
+  --md: 30px;
+  --lg: 40px;
+  }
+  body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  }
+  .container {
+   display: grid;
+    width: 100%;
+  }
+  .tinkercad img {
+    width: 40%;
+    height: 30vh;
+    margin: auto;
+    display: block;
+  }
+  .title-main {   
+    font-size: var(--lg);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .subtitle {
+    font-size: var(--md);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .p {
+    font-size: var(--sm);
+    text-align: center;  
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+  }
+  ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: var(--sm);
+    list-style: none;
+    text-align: justify;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }  
+  a {
+    margin-left: 45%;
+    margin-right: 45%;
+    text-align: center;
+    font-size: var(--md);
+    text-decoration: none;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    color: var(--blue);
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .img1 img  {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .img2 img {
+    width: 20%;
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .tinkercad img {
+    display: grid;
+    width: 50%;
+    height: 40vh;
+    margin: auto;
+    display: block;
+  }
+  @media (max-width: 640px) {
+    .container {
+      width: 100%; 
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .tinkercad img {
+      width: 100%;
+    }
+  }
+  
+
